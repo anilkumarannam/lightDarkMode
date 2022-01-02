@@ -1,0 +1,29 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  border-radius: 30px;
+  width: 20w;
+}
+.light {
+  border: 1px solid black;
+}
+.dark {
+  background-color: black;
+  color: white;
+}
+.button {
+  height: 36px;
+  width: 120px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
